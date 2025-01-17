@@ -1,1 +1,69 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  font-family: 'Luxurious Roman', sans-serif;
+  background-color: #02642B;
+}
+
+#container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 15px;
+  color: #ffd700;
+  background-color: #66023c;
+  width: 600px;
+  height: 450px;
+  border: 7px #66023c ridge;
+  margin: 50px auto;
+}
+
+#title { 
+text-align: center;
+margin: 40 auto;
+}
+
+#input-con, #output-con {
+  font-size: 30px;
+  width: 85%;
+  margin: 25px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 3px black ridge; 
+  height: 160px;
+  border-radius: 10px;
+}
+
+#number{
+  width: 200px;
+  height: 50px;
+  margin: 15px auto;
+  text-align: center;
+}
+
+#buttons {
+  display: flex;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#convert-btn, #clear-btn {
+  width: 90px;
+  height: 30px;
+  margin: 0 auto 25px auto;
+  background-color: #a42a04;
+}
+
+#output-con {
+  display: none;
+}
+
+
+#numeral {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+  width: 90%;
+  height: 60px;
+  margin: 15px auto 25px auto;
+  text-align: center;
+  padding: 5px;
+} 
